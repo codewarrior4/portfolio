@@ -21,9 +21,10 @@
         <footer class="footer-area">
             <div class="container">
                 <div class="footer-content text-center">
-                    <a href="/" class="logo">
-                        <img src="./assets/images/logo.svg" alt="Logo">
-                    </a>
+                    <router-link to="/" class="logo">
+                        <span class="fw-bold text-light display-6">Adebayo </span>
+                        <span class="fw-bold text-primary display-6">Mayowa </span>
+                    </router-link>
                     <ul class="footer-menu">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>

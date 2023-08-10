@@ -123,7 +123,7 @@ onMounted(()=>{
                     <div class="blog-service-profile-wrap d-flex gap-24">
                         
 
-                        <div data-aos="zoom-in"  >
+                        <div data-aos="zoom-in"  class="col-md-6">
                             <div class="about-services-box info-box shadow-box h-full">
                                 <a href="/service" class="overlay-link"></a>
                                 <img src="/assets/images/bg1.png" alt="BG" class="bg-img">
@@ -147,30 +147,7 @@ onMounted(()=>{
                             </div>
                         </div>
 
-                        <div data-aos="zoom-in">
-                            <div class="about-profile-box info-box shadow-box h-full">
-                                <img src="/assets/images/bg1.png" alt="BG" class="bg-img">
-                                <div class="inner-profile-icons shadow-box">
-                                    <a href="#">
-                                        <i class="iconoir-dribbble"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="iconoir-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="infos">
-                                        <h4>Stay with me</h4>
-                                        <h1>Profiles</h1>
-                                    </div>
-
-                                    <a href="/contact" class="about-btn">
-                                        <img src="/assets/images/icon.svg" alt="Button">
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <div class="col-md-6" data-aos="zoom-in">
                         
@@ -202,8 +179,31 @@ onMounted(()=>{
             </div>
 
             <div class="row mt-24">
-                
-                <div class="col-md-12" data-aos="zoom-in">
+                <div class="col-md-6" data-aos="zoom-in">
+                    <div class="about-profile-box info-box shadow-box h-full">
+                        <img src="/assets/images/bg1.png" alt="BG" class="bg-img">
+                        <div class="inner-profile-icons shadow-box">
+                            <a href="#">
+                                <i class="iconoir-dribbble"></i>
+                            </a>
+                            <a href="#">
+                                <i class="iconoir-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="infos">
+                                <h4>Stay with me</h4>
+                                <h1>Profiles</h1>
+                            </div>
+
+                            <a href="/contact" class="about-btn">
+                                <img src="/assets/images/icon.svg" alt="Button">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in">
                         
                     <div class="about-contact-box info-box shadow-box">
                         <a class="overlay-link" href="contact"></a>
