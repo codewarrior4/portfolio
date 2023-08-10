@@ -12,6 +12,8 @@
     },
     "dependencies": {
         "@vitejs/plugin-vue": "^4.2.3",
+        "aos": "^2.3.4",
+        "bootstrap": "^5.3.1",
         "sweetalert2": "^11.7.21",
         "vee-validate": "^4.11.1",
         "vue": "^3.3.4",
